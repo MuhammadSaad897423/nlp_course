@@ -38,7 +38,7 @@ RUN pip install --upgrade pip==9.0.3 && \
                            http://download.pytorch.org/whl/cpu/torch-0.4.0-cp27-cp27mu-linux_x86_64.whl \
                            torchvision \
                            keras
-
+  pip install --upgrade numpy scipy && \
 RUN pip3 install --upgrade pip==9.0.3 && \
     pip3 install --upgrade numpy scipy && \
     pip3 install --upgrade sklearn \
